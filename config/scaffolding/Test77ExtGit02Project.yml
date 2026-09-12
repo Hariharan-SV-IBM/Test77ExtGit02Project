@@ -1,0 +1,12 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Test77ExtGit02Project
+  gitServerName: remoteUnShared
+  gitUrl: https://github.com/Hariharan-SV-IBM
+  gitUsername: Hariharan-SV-IBM
+  gitBranch: main
+configurationVariables:
+  jdbcfunc.SAPTxStore.failFastMode: false
+  jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
